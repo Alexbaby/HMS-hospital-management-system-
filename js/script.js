@@ -8,3 +8,7 @@ function sideBar() {
     sidebar.classList.toggle("sidebar-offset");
     topbar.classList.toggle("top-bar-offset");
 }
+$('#makeappointment').modal({
+    backdrop: 'static',
+    keyboard: false
+})

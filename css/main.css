@@ -343,6 +343,10 @@ body {
   line-height: 30px;
 }
 
+.modal-header .close {
+  outline: none !important;
+}
+
 .modal-body .form-group label {
   margin-bottom: 10px;
 }
@@ -898,7 +902,15 @@ body {
     right: 10px;
     font-size: 13px;
   }
+  .top-bar__user-control--profile span {
+    display: none;
+  }
 }
 
 /*  7-vendor  */
+.modal .dropdown-toggle::after {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+}
 /*# sourceMappingURL=main.css.map */
