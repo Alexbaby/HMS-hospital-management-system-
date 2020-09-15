@@ -168,6 +168,13 @@ table {
   position: relative;
 }
 
+.content-title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
 .text-primary {
   color: #033673 !important;
 }
@@ -349,6 +356,57 @@ body {
 
 .modal-body .form-group label {
   margin-bottom: 10px;
+}
+
+.progress-card-container {
+  max-width: 225px;
+  min-width: 225px;
+}
+
+.progress-card {
+  width: 100%;
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.progress-card__name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  display: block;
+}
+
+.progress-card__designation {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.progress-card__progress-bar {
+  min-width: 100px;
+  height: 6px;
+  background-color: #f8f9fa;
+  display: inline-block;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.progress-card__detail {
+  font-size: 12px;
+}
+
+.progress {
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  min-width: 8%;
+  background-color: #F63C49;
+  border-radius: 1rem;
 }
 
 .footer-credits {
@@ -917,6 +975,10 @@ body {
 .form-control {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
+}
+
+.form-check-label {
+  color: #495057;
 }
 
 .form-check-input {
