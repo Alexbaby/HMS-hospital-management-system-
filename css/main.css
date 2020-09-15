@@ -629,7 +629,7 @@ body {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background-image: url("../assets/img/bg-img.jpg");
+  background-image: url("../assets/img/bg-img.png");
   background-size: 250px;
   background-position: right center;
   background-repeat: no-repeat;
