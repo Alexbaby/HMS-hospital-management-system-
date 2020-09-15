@@ -175,6 +175,10 @@ table {
   margin-bottom: 15px;
 }
 
+.spacer {
+  padding: 50px;
+}
+
 .text-primary {
   color: #033673 !important;
 }
@@ -359,8 +363,9 @@ body {
 }
 
 .progress-card-container {
-  max-width: 225px;
   min-width: 225px;
+  margin-bottom: 10px;
+  padding-right: 0;
 }
 
 .progress-card {
@@ -397,7 +402,11 @@ body {
 }
 
 .progress-card__detail {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   font-size: 12px;
+  margin-left: 15px;
 }
 
 .progress {
@@ -407,6 +416,18 @@ body {
   min-width: 8%;
   background-color: #F63C49;
   border-radius: 1rem;
+}
+
+.progress.w-50 {
+  background-color: #F9A015;
+}
+
+.progress.w-75 {
+  background-color: #033673;
+}
+
+.progress.w-100 {
+  background-color: #009945;
 }
 
 .footer-credits {
