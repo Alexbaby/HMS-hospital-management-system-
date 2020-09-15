@@ -913,4 +913,48 @@ body {
   top: 15px;
   right: 10px;
 }
+
+.form-control {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.form-check-input {
+  position: relative;
+  margin-right: 10px;
+}
+
+.form-check-input::before {
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  background: #033673;
+  border-radius: 3px;
+  top: 0px;
+  left: -2px;
+}
+
+.form-check-input::after {
+  display: none;
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 8px;
+  top: 3px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  right: 5px;
+  border-bottom-color: initial;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-right-color: initial;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-color: #fff;
+}
+
+.form-check-input:checked::after {
+  display: block;
+}
 /*# sourceMappingURL=main.css.map */
