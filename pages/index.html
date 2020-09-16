@@ -206,72 +206,95 @@
     </div>
     
   
-  <!-- Appointment Modal -->
-  <div class="modal fade" id="makeappointment" tabindex="-1" role="dialog" aria-labelledby="makeappointmentLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-header border-0">
-          <h5 class="modal-title" id="exampleModalLabel">Make an Appointment </h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+    <!-- Appointment Modal -->
+    <div class="modal fade" id="makeappointment" tabindex="-1" role="dialog" aria-labelledby="makeappointmentLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header border-0">
+            <h5 class="modal-title" id="exampleModalLabel">Make an Appointment </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body pb-0">
+                <div class="d-flex flex-wrap">
+                    <div class="form-group col-lg-3 col-md-6 col-12 pl-0">
+                        <label for="">Select date</label>
+                        <input type="date" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="form-group col-lg-3 col-md-6 col-12 pl-0">
+                        <label for="">choose doctor</label>
+                        <button class="nav-item dropdown bg-invisible border w-100 rounded">
+                            <a class="nav-link dropdown-toggle text-gray-700 text-left" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Choose a doctor</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">
+                                    <label class="mb-2" for="">Dr Deepa</label>
+                                    <br>
+                                    <span>Aurthology</span> 
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">
+                                    <label class="mb-2" for="">Dr Deepa</label>
+                                    <br>
+                                    <span>Aurthology</span>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">
+                                    <label class="mb-2" for="">Dr Deepa</label>
+                                    <br>
+                                    <span>Aurthology</span>
+                                </a>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="col-lg-6 d-lg-block d-none py-2"></div>
+                    <div class="form-group col-lg-3 col-md-6 col-12 pl-0">
+                        <label for="">Name</label>
+                        <input type="password" class="form-control" placeholder="">
+                    </div>
+                    <div class="form-group col-lg-3 col-md-6 col-12 pl-0">
+                        <label for="">Age</label>
+                        <input type="number" class="form-control" placeholder="">
+                    </div>
+                    <div class="form-group col-lg-3 col-md-6 col-12 pl-0">
+                        <label for="">Place</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                    <div class="form-group col-lg-3 col-md-6 col-12 pl-0">
+                        <label for="">Phone number</label>
+                        <input type="text" class="form-control" placeholder="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer justify-content-start border-0 pt-0">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#maketoken">Make Appointment</button>
+            </div>
         </div>
-        <div class="modal-body pb-0">
-            <div class="d-flex flex-wrap">
-                <div class="form-group col-lg-3 col-md-6 col-12 pl-0">
-                    <label for="">Select date</label>
-                    <input type="date" class="form-control" placeholder="Password">
+        </div>
+    </div>
+    <!-- token Modal -->
+    <div class="modal fade" id="maketoken" tabindex="-1" role="dialog" aria-labelledby="maketokenLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header border-0 bg-primary">
+                <h6 class="modal-title mx-auto text-white" id="exampleModalLabel">TOKEN GENARATED </h6>
                 </div>
-                <div class="form-group col-lg-3 col-md-6 col-12 pl-0">
-                    <label for="">choose doctor</label>
-                    <button class="nav-item dropdown bg-invisible border w-100 rounded">
-                        <a class="nav-link dropdown-toggle text-gray-700 text-left" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Choose a doctor</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">
-                                <label class="mb-2" for="">Dr Deepa</label>
-                                <br>
-                                <span>Aurthology</span> 
-                            </a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">
-                                <label class="mb-2" for="">Dr Deepa</label>
-                                <br>
-                                <span>Aurthology</span>
-                            </a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">
-                                <label class="mb-2" for="">Dr Deepa</label>
-                                <br>
-                                <span>Aurthology</span>
-                            </a>
-                        </div>
-                    </button>
+                <div class="modal-body p-0">
+                    <div class="d-flex flex-wrap pt-3">
+                        <label class="token-title" for="">Token Number</label>
+                        <label class="token-number" for="">23</label>
+                        <label for="" class="token-detail"><span>Patient  name :</span><span>Jhone Smith</span></label>
+                        <label for="" class="token-detail"><span>Doctor  name :</span><span>Dr. Deepa</span></label>
+                        <label for="" class="token-detail"><span>Date :</span><span>22-04-2020</span></label>
+                    </div>
                 </div>
-                <div class="col-lg-6 d-lg-block d-none py-2"></div>
-                <div class="form-group col-lg-3 col-md-6 col-12 pl-0">
-                    <label for="">Name</label>
-                    <input type="password" class="form-control" placeholder="">
-                </div>
-                <div class="form-group col-lg-3 col-md-6 col-12 pl-0">
-                    <label for="">Age</label>
-                    <input type="number" class="form-control" placeholder="">
-                </div>
-                <div class="form-group col-lg-3 col-md-6 col-12 pl-0">
-                    <label for="">Place</label>
-                    <input type="text" class="form-control" placeholder="">
-                </div>
-                <div class="form-group col-lg-3 col-md-6 col-12 pl-0">
-                    <label for="">Phone number</label>
-                    <input type="text" class="form-control" placeholder="">
+                <div class="modal-footer justify-content-start border-0 pt-0">
+                <button type="button" class="btn btn-primary px-5 d-block mx-auto mt-3" data-dismiss="modal" aria-label="Close">ok</button>
+                <img class="border-bottom-img" src="../assets/Line 3.png" alt="">
                 </div>
             </div>
         </div>
-        <div class="modal-footer justify-content-start border-0 pt-0">
-          <button type="button" class="btn btn-primary">Make Appointment</button>
-        </div>
-      </div>
     </div>
-  </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://kit.fontawesome.com/ddcadd200c.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.7/dist/js/uikit.min.js"></script>
