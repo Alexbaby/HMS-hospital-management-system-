@@ -180,6 +180,13 @@ table {
   padding: 50px;
 }
 
+.success-message {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+}
+
 .text-primary {
   color: #033673 !important;
 }
@@ -411,6 +418,10 @@ body {
   bottom: -8px;
   left: -4px;
   width: 100%;
+}
+
+#shedulesuccess .modal-dialog {
+  width: 300px;
 }
 
 .table {
