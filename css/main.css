@@ -187,6 +187,10 @@ table {
   font-weight: 700;
 }
 
+.token-doctor {
+  max-width: 350px;
+}
+
 .text-primary {
   color: #033673 !important;
 }
@@ -776,11 +780,11 @@ body {
 }
 
 .doctor-card__shedule {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .doctor-card__shedule span {
-  font-size: 14px;
+  font-size: 16px;
   margin-right: 20px;
 }
 
@@ -799,6 +803,7 @@ body {
 
 .doctor-card__status label {
   margin-right: 20px;
+  font-weight: 700;
 }
 
 .footer-credits {
