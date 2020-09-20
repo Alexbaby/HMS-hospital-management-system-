@@ -1183,6 +1183,15 @@ body {
   }
 }
 
+@media (max-width: 385px) {
+  .shedule-card-container {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+    max-width: 100%;
+  }
+}
+
 /*  7-vendor  */
 .modal .dropdown-toggle::after {
   position: absolute;
