@@ -138,7 +138,7 @@ table {
 }
 
 .side-bar-container {
-  max-width: 255px;
+  max-width: 200px;
   margin-top: -80px;
 }
 
@@ -146,7 +146,7 @@ table {
   min-height: calc(100vh - 80px);
   max-height: calc(100vh - 80px);
   max-width: 100%;
-  min-width: calc(100% - 255px);
+  min-width: calc(100% - 200px);
   overflow-y: scroll;
 }
 
@@ -170,7 +170,7 @@ table {
 
 .content-title {
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 30px;
   margin-bottom: 0;
   display: inline-block;
@@ -181,7 +181,7 @@ table {
 }
 
 .success-message {
-  font-size: 30px;
+  font-size: 26px;
   width: 100%;
   text-align: center;
   font-weight: 700;
@@ -343,6 +343,7 @@ body {
 .btn {
   -webkit-transition: 300ms;
   transition: 300ms;
+  font-size: 14px;
 }
 
 .btn-primary {
@@ -534,6 +535,11 @@ body {
 
 .table__head {
   font-weight: 700;
+  font-size: 14px;
+}
+
+.table__item {
+  font-size: 14px;
 }
 
 .table__item:last-child {
@@ -786,7 +792,8 @@ body {
 .doctor-card__name {
   width: 100%;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 16px;
+  margin-bottom: 0px;
 }
 
 .doctor-card__department {
@@ -882,8 +889,8 @@ body {
   z-index: 10;
   -webkit-box-shadow: 0 0 10px 1px rgba(68, 102, 242, 0.05);
   box-shadow: 0 0 10px 1px rgba(68, 102, 242, 0.05);
-  width: calc(100% - 255px);
-  margin-left: 255px;
+  width: calc(100% - 200px);
+  margin-left: 200px;
 }
 
 .top-bar__control-button {
@@ -959,9 +966,9 @@ body {
 }
 
 .top-bar__user-control--profile span {
-  font-weight: 700;
+  font-weight: 600;
   margin-right: 15px;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .top-bar__user-control--profile img {
@@ -970,7 +977,7 @@ body {
 }
 
 .sidebar-offset {
-  margin-left: -255px;
+  margin-left: -200px;
   display: none;
 }
 
@@ -1056,9 +1063,10 @@ body {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   text-transform: capitalize;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 15px;
   padding-left: 10px;
+  font-size: 14px;
 }
 
 .sidemenu-bar__menu .nav-link:hover {
@@ -1073,6 +1081,7 @@ body {
 
 .sidemenu-bar__menu .nav-link.active {
   color: #033673;
+  font-weight: 600;
 }
 
 .sidemenu-bar__menu .uk-nav-parent-icon > .uk-parent > a::after {
@@ -1275,7 +1284,7 @@ body {
 /*  6-responsive  */
 @media (min-width: 768px) {
   .footer-credits {
-    padding-left: 255px !important;
+    padding-left: 200px !important;
   }
 }
 
@@ -1346,15 +1355,15 @@ body {
   }
   .sidemenu-bar {
     z-index: 10;
-    margin-left: -255px;
+    margin-left: -200px;
   }
   .side-bar-container {
     max-width: 0;
     display: none;
   }
   .side-bar-container-offset {
-    max-width: 255px !important;
-    min-width: 255px !important;
+    max-width: 200px !important;
+    min-width: 200px !important;
     display: block !important;
     position: absolute !important;
     top: 0px;
